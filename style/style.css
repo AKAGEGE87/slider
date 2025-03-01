@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div {
+  display: flex;
+}
+img {
+  width: 300px;
+}
+
+div {
+  position: absolute;
+  z-index: 1;
+}
+
+.img1 {
+  width: 400px;
+}
+
+.img2,
+.img3 {
+  opacity: 50%;
+}
